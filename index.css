@@ -97,7 +97,7 @@ nav ul li a:focus {
 .underline-text::after {
   content: '';
   position: absolute;
-  bottom: -15px; /* adjust as needed */
+  bottom: -35px; /* adjust as needed */
   left: 50%;
   transform: translateX(-50%);
   width: 120%; /* <<< Increase this for a longer line */
