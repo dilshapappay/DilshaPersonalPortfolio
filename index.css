@@ -660,6 +660,7 @@ footer p {
     }
     .contact-info i {
       padding: 0.625rem;
+        margin-bottom:1rem;
     }
     .social-links img {
       width: 1.875rem;
