@@ -100,8 +100,8 @@ nav ul li a:focus {
   bottom: -35px; /* adjust as needed */
   left: 50%;
   transform: translateX(-50%);
-  width: 120%; /* <<< Increase this for a longer line */
-  height: 40px; /* make sure it matches image height */
+  width: 120%; 
+  height: 30px; 
   background: url('./Photos/line-Vector.png') no-repeat center;
   background-size: 100% 100%;
   pointer-events: none;
