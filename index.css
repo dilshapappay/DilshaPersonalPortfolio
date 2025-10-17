@@ -71,6 +71,7 @@ nav ul li a:focus {
 
 .hero-content {
     max-width: 600px;
+    margin-left: 30px;
 }
 
 .hero-content h1 {
@@ -701,6 +702,7 @@ footer p {
     .hero-image img {
       width: 11.25rem;
     }
+
     .btn {
       width: 8.75rem;
       padding: 0.6rem 1rem;
@@ -714,9 +716,17 @@ footer p {
       width: 3.125rem;
     }
     .contact-info i {
-      padding: 0.625rem;
-      font-size: 0.9rem;
+      padding: 0.25rem;
+      font-size: 0.8rem;
     }
+    .contact-info p{
+            font-size: 0.6rem;
+
+    }
+    .contact-info{
+      padding: 0.625rem;
+    }
+
    
   }
 
