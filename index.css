@@ -71,7 +71,6 @@ nav ul li a:focus {
 
 .hero-content {
     max-width: 600px;
-    margin-left: 30px;
 }
 
 .hero-content h1 {
@@ -375,12 +374,14 @@ h5 {
 
 .contact-info {
   background-color: #D1D8BE;
-  width: 34.375rem;
+  width: 50.375rem;
   max-width: 100%; 
   height: auto; 
   border-radius: 1.25rem;
   text-align: left;
-  padding: 1.25rem;
+  padding: 2.1rem;
+  padding-top: 3.25rem;
+  margin-left: 60px;
   box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3);
 }
 
@@ -399,7 +400,6 @@ h5 {
   font-size: 1rem;
   color: #1c1f1d;
   margin-top: 2.5rem;
-  padding-left: 1.875rem;
 }
 
 .social-links {
@@ -413,7 +413,7 @@ h5 {
 
 .contact-info i {
   background-color: #ffffff;
-  padding: 0.9375rem;
+  padding: 0.9567rem;
   border-radius: 0.9375rem;
   box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3);
   margin-right: 0.625rem;
@@ -600,9 +600,7 @@ footer p {
       margin: 0 auto;
     }
 
-    .contact-info p {
-      padding-left: 0.9375rem;
-    }
+    
 
     .social-links {
       flex-direction: row;
@@ -619,7 +617,7 @@ footer p {
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 425px) {
     .hero-content h1 {
       font-size: 2.2rem;
     }
@@ -654,17 +652,15 @@ footer p {
       font-size: 0.9rem;
       padding: 0 0.8rem 0.8rem;
     }
-    .contact-info {
-      padding: 0.9375rem;
-    }
+  
     .contact-info h4 {
       font-size: 1.1rem;
       margin-bottom: 1.25rem;
     }
     .contact-info p {
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       margin-top: 1.25rem;
-      padding-left: 0.625rem;
+      
     }
     .contact-info i {
       padding: 0.625rem;
@@ -716,7 +712,7 @@ footer p {
       width: 3.125rem;
     }
     .contact-info i {
-      padding: 0.25rem;
+      padding: 0.5rem;
       font-size: 0.8rem;
     }
     .contact-info p{
@@ -725,11 +721,20 @@ footer p {
     }
    
     .contact-info{
-      padding: 0.625rem;
+      padding:0.5rem;
+     
     }
 
    
   }
+
+   @media (max-width: 260px){
+    .contact-info p {
+      font-size: 0.2px;
+      padding: 0.3125rem;
+    }
+  }
+
 
 /* Animation on load */
 .animate-on-load {
